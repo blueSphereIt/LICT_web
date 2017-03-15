@@ -4,19 +4,58 @@
 	<title>Report Card</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
-<div>
-	<table border="1" style="width=100%; ">
+<body style="height:200px;">
+<div >
+	<div style="height=5%; text-align: center; "">
+		<h3> Progress Report Card, Half Yearly Exam-2016</h3>
+	</div>
+	<table id="t1" border="1" style="width=100%; height=15%;  ">
 		
 		
 		<col width="160">
 		<!-- 1st row -->
 		<tr>
-			<td colspan="3" rowspan="5" style="text-align:left "><img src="pic.jpg" width="100%" ></td>
-			<th colspan="2">Name</th>
-			<td colspan="3">Nafisa Akter jarin</td>
-			<th colspan="2">ID No</th>
-			<td colspan="3">16-Eight-provaty-1</td>
+			<td colspan="3" rowspan="5" ><img src="pic.jpg" width="200px" ></td>
+			<td colspan="16" rowspan="5">
+				<table id="t2"  border="0" class="leftAlign" style="text-align: left" >
+					
+					<tr >
+						<th colspan="2" width="100" >Name</th>
+						<td colspan="3" width="150" style="text-align: left">Nafisa Akter jarin</td>
+						<th colspan="2" width="100" >ID No</th>
+						<td colspan="3" width="150" style="text-align: left">16-Eight-provaty-1</td>
+					</tr>
+					
+					<tr>
+						<th colspan="2">Father's Name</th>
+						<td colspan="3" style="text-align: left">Badol Mia</td>
+						<th colspan="2">Code No</th>
+						<td colspan="3" style="text-align: left">201612112331</td>
+					</tr>
+					
+					<tr>
+						<th colspan="2">Mother's Name</th>
+						<td colspan="3" style="text-align: left">Parvin Begum</td>
+						<th colspan="2">Class</th>
+						<td colspan="3" style="text-align: left">Eight</td>
+					</tr>
+					
+					<tr>
+						<th colspan="2">Shift</th>
+						<td colspan="3" style="text-align: left">Morning</td>
+						<th colspan="2">Section</th>
+						<td colspan="3" style="text-align: left">Morning</td>
+					</tr>
+					
+					<tr>
+						<th colspan="2">Version</th>
+						<td colspan="3" style="text-align: left">Bangla Medium</td>
+						<th colspan="2">Roll</th>
+						<td colspan="3" style="text-align: left">1</td>
+					</tr>
+				</table>
+			 </td>
+			
 
 			<th colspan="3" >Behavior</th> 
 			<th colspan="4" >Co-Curricular</th> 
@@ -25,10 +64,7 @@
 		<!-- 2nd row -->
 		<tr>
 			
-			<th colspan="2">Father's Name</th>
-			<td colspan="3">Badol Mia</td>
-			<th colspan="2">Code No</th>
-			<td colspan="3">201612112331</td>
+			
 
 			<th colspan="2">Excellent</th> 
 			<td> &emsp;</td>
@@ -40,10 +76,7 @@
 		<!-- 3rd row -->
 		<tr>
 			
-			<th colspan="2">Mother's Name</th>
-			<td colspan="3">Parvin Begum</td>
-			<th colspan="2">Class</th>
-			<td colspan="3">Eight</td>
+			
 
 			<th colspan="2">Very Good</th> 
 			<td> &emsp;</td>
@@ -55,10 +88,7 @@
 		<!-- 4th row -->
 		<tr>
 			
-			<th colspan="2">Shift</th>
-			<td colspan="3">Morning</td>
-			<th colspan="2">Section</th>
-			<td colspan="3">Morning</td>
+			
 
 			<th colspan="2">Good</th> 
 			<td>&emsp; </td>
@@ -70,10 +100,7 @@
 		<!-- 5th row -->
 		<tr>
 			
-			<th colspan="2">Version</th>
-			<td colspan="3">Bangla Medium</td>
-			<th colspan="2">Roll</th>
-			<td colspan="3">1</td>
+			
 
 			<th colspan="2">Need Improvement</th> 
 			<td> &emsp;</td>
@@ -85,7 +112,7 @@
 
 	</table>
 
-	<table border="1" style="width=100%">
+	<table id="t3" border="1" style="width=100%; height=60%;">
 		<!-- First row -->
 		<tr>
 			<th colspan="6" rowspan="3">Subject Name</th>
@@ -358,6 +385,74 @@
 				<td colspan="5"></td> 		</tr>
 
 
+	</table>
+	<table id="t4" border="1" style="width=100%; height=20%;text-align:center;">
+		<!-- 1st row-->
+		<tr>
+			<th colspan="2">&emsp;&emsp;Marks Range&emsp;&emsp;</th>
+			<th colspan="1">LG</th>
+			<th colspan="1">GPA</th>
+			<th colspan="2" rowspan="3">Merit <br>(classWise)</th>
+			<th colspan="2" rowspan="3">&emsp;1&emsp;</th>
+			<th colspan="5" rowspan="5">&emsp;&emsp;&emsp;&emsp;<br>&emsp;&emsp;</th>
+			<th colspan="5" rowspan="5">&emsp;&emsp;&emsp;&emsp;</th>
+			<th colspan="5" rowspan="5">&emsp;&emsp;&emsp;&emsp;</th>
+		</tr>
+		<!-- 2nd row-->
+		<tr>
+			<td colspan="2">80-100</td>
+			<td colspan="1">A+</td>
+			<td colspan="1">5.00</td>
+		</tr>
+		<!-- 3rd row-->
+		<tr>
+			<td colspan="2">70-79</td>
+			<td colspan="1">A</td>
+			<td colspan="1">4.00</td>
+
+		</tr>
+		<!-- 4th row-->
+		<tr>
+			<td colspan="2">60-69</td>
+			<td colspan="1">A-</td>
+			<td colspan="1">3.50</td>
+			<th colspan="4">&emsp;&emsp; Total Working Days&emsp;&emsp;</th>
+
+		</tr>
+		<!-- 5th row-->
+		<tr>
+			<td colspan="2">80-100</td>
+			<td colspan="1">A+</td>
+			<td colspan="1">5.00</td>
+			<th colspan="2">Present</th>
+			<th colspan="2">Absence</th>
+
+		</tr>
+		<!-- 6th row-->
+		<tr>
+			<td colspan="2">80-100</td>
+			<td colspan="1">A+</td>
+			<td colspan="1">5.00</td>
+			<td colspan="2" rowspan="3"></td>
+			<td colspan="2" rowspan="3"></td>
+			<th colspan="5" rowspan="3">Class Teacher's Remarks & Signature </th>
+			<th colspan="5" rowspan="3">Head Master's Signature </th>
+			<th colspan="5" rowspan="3"> Guardian's Signature</th>
+		</tr>
+		<!-- 7th row-->
+		<tr>
+			<td colspan="2">70-79</td>
+			<td colspan="1">A</td>
+			<td colspan="1">4.00</td>
+
+		</tr>
+		<!-- 8th row-->
+		<tr>
+			<td colspan="2">70-79</td>
+			<td colspan="1">A</td>
+			<td colspan="1">4.00</td>
+
+		</tr>
 	</table>
 </div>
 </body>

@@ -1,0 +1,25 @@
+#t2{
+	
+	border: 1px solid black;
+	padding: 4px;
+	padding-right: 50px;
+	padding-left: 15px;
+}
+h2
+{
+	text-align: center;
+   color: darkblue;
+}
+h3
+{
+	text-align: center;
+   color: darkblue;
+}
+body{
+
+	color: darkblue;
+}
+table
+{
+	border-color: darkblue;
+}
