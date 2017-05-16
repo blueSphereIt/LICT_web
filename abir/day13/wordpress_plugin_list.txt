@@ -1,0 +1,5 @@
+Duplicator
+PODS -used to create new fields in a post or page
+contact-form-7
+mailchimp
+jetpack

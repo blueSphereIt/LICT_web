@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/js/bootstrap.min.js">
+	<link rel="stylesheet" type="text/css" href="calculator.css">
+	
+</head>
+<script type="text/javascript">
+	//var input=0;
+	//document.getElementById('screen').innerHTML=input;
+	function input(inVal) {
+		// body...
+		screenVal=document.getElementById('screen').value;
+		screenVal=screenVal+inVal;
+		
+		//var get_name=inVal;
+
+		//alert(inVal);
+		document.getElementById('screen').innerHTML=screenVal;
+		document.getElementById('screen').value=screenVal;
+	}
+	function total(){
+		screenVal=document.getElementById('screen').value;
+		alert(screenVal);
+		
+
+	}
+</script>
+
+
+<body>
+<div class="container">
+	<div class="col-md-12">
+		<p id="screen" class="screen" value="0">0</p>
+	</div>
+	
+	
+	<div class="col-md-12">
+		<button class="btn btn-default btn-num " onclick="input('1')" type="button">1 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('2')">2 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('3')">3 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('+')">+ </button>
+	</div>
+	<div class="col-md-12">
+		<button class="btn btn-default btn-num " type="button" onclick="input('4')">4 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('5')">5 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('6')">6 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('-')">- </button>
+	</div>
+	<div class="col-md-12">
+		<button class="btn btn-default btn-num " type="button" onclick="input('7')">7 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('8')">8 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('9')">9 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('*')">* </button>
+	</div>
+	<div class="col-md-12">
+		<button class="btn btn-default btn-num " type="button" onclick="total()">= </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('0')">0 </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('%')">% </button>
+		<button class="btn btn-default btn-num " type="button" onclick="input('/')">/ </button>
+	</div>
+</div>
+
+
+</body>
+</html>

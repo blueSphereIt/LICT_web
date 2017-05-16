@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	
+	<script type="text/javascript">
+		//alert("h1");
+		window.onload = function(){
+			var elem =document.getElementById("head1");
+			var modalElem= document.getElementById("modal-id1");
+			var closeElem= document.getElementById("close");
+			elem.onclick= function hello() {
+				modalElem.style.display="block";
+				change(elem);
+			};
+			closeElem.onclick= function(){
+				alert("close");
+				modalElem.style.display="none";
+			};
+		};
+		function change(elem) {
+			// body...
+			elem.innerHTML=('Changed Msg');
+		};
+		window.onclick= function (event) {
+			// body...
+
+			if (event.target==modalElem) {
+				alert("close");
+				modalElem.style.display="none";
+			}
+		};
+		
+	</script>
+
+</head>
+<body>
+<h1 id="head1">This is the Header</h1>
+
+<div id="modal-id1" class="modal">
+	<div class="modal-content">
+		<span class="close">&times;</span>
+		<h3>This is Darjeeling</h3>
+		<img class="img-cl" src="1.jpg">
+	</div>
+		
+</div>
+
+</body>
+</html>

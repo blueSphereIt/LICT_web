@@ -1,0 +1,20 @@
+ERP- Enterprise resource 
+	Accounts
+	HR
+	payroll
+	inventory
+	CRM- Customer Relationship Management
+
+
+
+JQUERY
+
+	Traversing
+	
+
+
+	Ancestor
+
+
+	Sibling
+	

@@ -1,0 +1,16 @@
+.btn-num{
+	width: 110px;
+	height: 100px;
+
+}
+.btn-sign{
+	width: 100px;
+	height: 80px;
+	align-content: right;
+}
+.screen{
+	min-height: 30px;
+	min-width: 200px;
+	border: 5px;
+	align-content: right;
+}

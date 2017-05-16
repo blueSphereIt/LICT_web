@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<p id="demo">This is the initial msg</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML="hello Js"' title="This will change the msg">Click to change</button>
+
+<button onclick="document.getElementById('myImg').src='1.jpg'">
+change pic 1	
+</button>
+<img id="myImg" src="1.jpg" style="width:100px">
+
+<button onclick="document.getElementById('myImg').src='2.jpg'">
+change pic 2	
+</button>
+
+<p id="demo1">This is the initial msg</p>
+<p id="demo2">This is the initial msg</p>
+<input type="text" id="nameInput">
+<button type="button" onclick="changeAll()" title="This will change the msg">Click to change</button>
+<script type="text/javascript">
+	function changeAll() {
+		// body...
+		var get_name=document.getElementById("nameInput").value;
+		document.getElementById("demo1").style.fontSize='35px';
+		document.getElementById("demo1").style.color='red';
+		document.getElementById("demo1").innerHTML=get_name;
+		if (get_name=="porosh") {
+			document.getElementById("demo2").innerHTML="He is the damda chingu of narjis";
+		}
+	}
+</script>
+
+</body>
+</html>
