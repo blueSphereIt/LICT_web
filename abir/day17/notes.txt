@@ -1,0 +1,4 @@
+what is $_REQUEST?
+what is $_cookie and $_session? And which one is better?
+where is $_session data is saved? -- in file server as temporary file
+
